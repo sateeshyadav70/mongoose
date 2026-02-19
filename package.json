@@ -1,7 +1,10 @@
 {
   "type": "module",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^5.2.1",
+=======
+>>>>>>> 49a79538fd5e4563489eedf10d747e099656075e
     "mongoose": "^9.2.1"
   },
   "devDependencies": {

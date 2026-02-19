@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+
 import express from 'express';
 import studentModel from './model/studentModel.js';
 
@@ -32,3 +33,19 @@ app.listen(1773)
 
 }
 dbConnection();*/ 
+
+
+async function dbConnection(){
+  await mongoose.connect("mongodb://localhost:27017/fundx")
+
+  const schema=mongoose.Schema({
+ name:String,
+ age:Number,
+ gmail:String
+  })
+  const sateeshModel=mongoose.model('funds',schema)
+  const result= await sateeshModel.find();
+  console.log(result)
+
+}
+dbConnection()
