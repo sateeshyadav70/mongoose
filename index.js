@@ -35,7 +35,7 @@ app.listen(1773)
 dbConnection();*/ 
 
 
-async function dbConnection(){
+/*async function dbConnection(){
   await mongoose.connect("mongodb://localhost:27017/fundx")
 
   const schema=mongoose.Schema({
@@ -48,4 +48,4 @@ async function dbConnection(){
   console.log(result)
 
 }
-dbConnection()
+dbConnection()*/
