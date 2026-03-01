@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "main": "node index.js",
+    "dev:upload": "nodemon uploadFile.js",
+    "dev:api": "nodemon connectApi.js",
+    "dev:db": "nodemon connedctApi.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
