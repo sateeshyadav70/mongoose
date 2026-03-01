@@ -1,5 +1,0 @@
-{
-  "ext": "js,json",
-
-  "ignore": ["index.js", "node_modules/**"]
-}
