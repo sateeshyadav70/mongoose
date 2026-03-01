@@ -1,4 +1,4 @@
-import express from 'express'
+/*import express from 'express'
 import cors from 'cors'
 
 const app=express();
@@ -13,4 +13,4 @@ email:"sateeshkumar@gmail.com"
 })
 
 })
-app.listen(4510)
+app.listen(4510)*/
