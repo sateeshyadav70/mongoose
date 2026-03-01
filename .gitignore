@@ -1,0 +1,16 @@
+common/
+node_modules/
+data/
+model/
+sateesh/
+schema/
+upload/
+views/
+connectApi.js
+connedctApi.js
+cookie.js
+index.js
+nodemon.json
+package-lock.json
+package.json
+uploadFile.js
