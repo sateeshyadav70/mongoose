@@ -66,7 +66,7 @@ app.delete("/delete/:id",async(req,res)=>{
 
 })
 
-app.listen(1768)
+
 /*async function dbConnection(){
   await mongoose.connect("mongodb://Localhost:27017/fundx")
   const schema=mongoose.Schema({
